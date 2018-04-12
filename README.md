@@ -14,7 +14,15 @@ Time spent: 8-9 hours spent in total
     - Fixed in version: 4.2.15  
   - [ ] GIF Walkthrough:
   <img src="https://github.com/ksoliman/web-security/blob/master/Large_File_Upload_Error_XSS.gif" width="800">
+  
   - [ ] Steps to recreate: 
+    - Create a ~20Mb file. In this walkthrough, a 17Mb picture was downloaded with a google search "20Mb picture"
+    - Rename the file
+    
+    ```
+    *insert_any_string_here*<img src=x onerror=alert(1)>.png
+    ```
+    
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
