@@ -11,10 +11,9 @@ Time spent: 8-9 hours spent in total
   - [ ] Summary: 
     - Vulnerability types: XSS + Social Engineering
     - Tested in version: 4.2
-    - Fixed in version: 4.2.15 
-    
+    - Fixed in version: 4.2.15  
   - [ ] GIF Walkthrough:
-  <img src="" width="800">
+  <img src="https://github.com/ksoliman/web-security/blob/master/Large_File_Upload_Error_XSS.gif" width="800">
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
