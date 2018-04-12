@@ -57,7 +57,7 @@ Time spent: 8-9 hours spent in total
     - Fixed in version: N/A
     
   - [ ] GIF Walkthrough:
-  <img src="https://github.com/ksoliman/web-security/blob/master/User_Enumeration.gif" width="800">
+  <img src="https://github.com/ksoliman/web-security/blob/master/GIFs/User_Enumeration.gif" width="800">
   
   - [ ] Steps to recreate:
     - On the log in page of the target site, enter a username that is likely non-existent
