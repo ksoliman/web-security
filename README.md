@@ -49,37 +49,33 @@ Time spent: 8-9 hours spent in total
   - [ ] Affected source code:
       - [Link 1](https://wpvulndb.com/vulnerabilities/7965)
     
-1. (Required) Vulnerability Name or ID
+3. User-Enumeration
+
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: User Enumeration
+    - Tested in version: 4.2, Most Recent
+    - Fixed in version: N/A
+    
+  - [ ] GIF Walkthrough:
+  <img src="https://github.com/ksoliman/web-security/blob/master/User_Enumeration.gif" width="800">
+  
+  - [ ] Steps to recreate:
+    - On the log in page of the target site, enter a username that is likely non-existent
+    - Enter any random characters in the password field
+    - Examine the error message
+      - The message should read ```ERROR: Invalid username.```
+    - Clear the username and password field and enter a username that may exist on the target site
+    - Enter any random characters in the password field
+    - Examine the error message
+      - The message should read ```ERROR: The password you entered for the username *entered_username* is incorrect.```
+    - Now, with knowledge of the username, a hacker can brute-force his/her way to the correct password  
+  
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - Not Found
 
 ## Assets
 
-List any additional assets, such as scripts or files
+The 17Mb picture used in vulnerability 1 came from: https://www.flickr.com/photos/jimbo_in_jersey/8466462590
 
 ## Resources
 
@@ -90,7 +86,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Experienced challenges during the "DOM Cross-Site Scripting XSS" test, as the malicious link found on a site acquired from WPScan did not run the onerror script. The ```/wordpress``` had to be removed from the link in order for the script to run.
 
 ## License
 
