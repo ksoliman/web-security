@@ -36,7 +36,7 @@ Time spent: 8-9 hours spent in total
     - Fixed in version: Twenty Fifteen Theme 1.2
     
   - [ ] GIF Walkthrough:
-  <img src="https://github.com/ksoliman/web-security/blob/master/DOM_Cross_Site_Scripting%20.gif" width="800">
+  <img src="https://github.com/ksoliman/web-security/blob/master/GIFs/DOM_Cross_Site_Scripting%20.gif" width="800">
   
   - [ ] Steps to recreate:
     - As a contributor, create a post containing this link: 
