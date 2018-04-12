@@ -15,7 +15,7 @@ Time spent: 8-9 hours spent in total
     - Fixed in version: 4.2.15
     
   - [ ] GIF Walkthrough:
-  <img src="https://github.com/ksoliman/web-security/blob/master/Large_File_Upload_Error_XSS.gif" width="800">
+  <img src="https://github.com/ksoliman/web-security/blob/master/GIFs/Large_File_Upload_Error_XSS.gif" width="800">
   
   - [ ] Steps to recreate: 
     - Create a ~20Mb file
