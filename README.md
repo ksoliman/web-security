@@ -21,10 +21,12 @@ Time spent: 8-9 hours spent in total
     - Rename the file ``` *insert_any_string_here*<img src=x onerror=alert(1)>.png```
       - The ```alert(1)``` would be replaced with malicious code in an actual attack
     - Logged in as the admin, navigate to "Dashboard" > "Media" > "Add New", then upload the target file
-      - The use of social engineering would be required to get an admin to upload the file injected with malicious code
+      - In an actual attack, the use of social engineering would be required to get an admin to upload the file injected with malicious code
+    - After receiving the "exceeds the maximum upload size" error message, the script will run   
     
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://hackerone.com/reports/203515)
+    
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
