@@ -7,7 +7,8 @@ Time spent: 8-9 hours spent in total
 
 ## Pentesting Report
 
-1. Large File Upload Error XSS (WordPress 3.3-4.7.4) 
+1. Large File Upload Error XSS (WordPress 3.3-4.7.4)
+
   - [ ] Summary: 
     - Vulnerability types: XSS 
     - Tested in version: 4.2
@@ -28,15 +29,20 @@ Time spent: 8-9 hours spent in total
   - [ ] Affected source code:
     - [Link 1](https://hackerone.com/reports/203515)
     
-1. DOM Cross-Site Scripting XSS (Twenty Fifteen Theme <= 1.1)
+2. DOM Cross-Site Scripting XSS (Twenty Fifteen Theme <= 1.1)
   - [ ] Summary: 
     - Vulnerability types: XSS 
     - Tested in version: 4.2
-    - Fixed in version: Twenty Fifteen Theme 1.2 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Fixed in version: Twenty Fifteen Theme 1.2
+    
+  - [ ] GIF Walkthrough:
+  <img src="https://github.com/ksoliman/web-security/blob/master/Large_File_Upload_Error_XSS.gif" width="800">
+  
+  - [ ] Steps to recreate:
+  
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+      - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
