@@ -75,7 +75,7 @@ Time spent: 8-9 hours spent in total
 
 ## Assets
 
-The 17Mb picture used in vulnerability 1 came from: https://www.flickr.com/photos/jimbo_in_jersey/8466462590
+- The 17Mb picture used in vulnerability 1 came from: https://www.flickr.com/photos/jimbo_in_jersey/8466462590
 
 ## Resources
 
